@@ -1,5 +1,5 @@
 #page-home{
-    background: url(../nlw/imagens/extras-aula-1/icones/home-background.svg) no-repeat;
+    background: url(../imagens/extras-aula-1/icones/home-background.svg) no-repeat;
     height: 100vh;
     background-position: 35vw bottom;
 }
@@ -33,17 +33,17 @@
     margin-right: 16px;
     display: flex;
 
-    background: url(imagens/extras-aula-1/icones/log-in.svg);
+    background: url(../imagens/extras-aula-1/icones/log-in.svg);
 
     width: 20px;
     height: 20px;
 }
 
 #page-home main{
-    margin-top: 100px;
     max-width: 560px;
     flex: 1;
     height: 600px;
+    display: flex;
     flex-direction: column;
     justify-content: center;
 }
@@ -94,7 +94,7 @@
 
 #page-home main a span:after{
     content: "";
-    background: url(../nlw/imagens/extras-aula-1/icones/search.svg);
+    background: url(../imagens/extras-aula-1/icones/search.svg);
 
     width: 20px;
     height: 20px;

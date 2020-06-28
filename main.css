@@ -1,13 +1,17 @@
-html{
-    font-family: 'Oswald', sans-serif;
+:root{
+    --title-color: #0b0e15;
+    --primary-color: #34cb79;
 }
 
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-
+html{
+    font-family: 'Oswald', sans-serif;
+}
 
 body{
     background: rgb(214, 205, 205);
@@ -18,13 +22,11 @@ a{
     text-decoration: none;
 }
 
-:root{
-    --title-color: #0b0e15;
-    --primary-color: #34cb79;
-}
+
 
 h1, h2, h3, h4, h5, h6{
     font-family: 'Noto Sans KR', sans-serif;
+    color: var(--title-color)
 
 }
 
